@@ -17,4 +17,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Traversal.DataAccessLayer\Traversal.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Traversal.EntityLayer\Traversal.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

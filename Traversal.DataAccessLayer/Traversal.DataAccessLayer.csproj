@@ -17,4 +17,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="EntityFramework\" />
+    <Folder Include="Repos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Traversal.EntityLayer\Traversal.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
